@@ -7,7 +7,7 @@ The Python code uses the ELI5 library that provides explainability frameworks fo
 
 # Permutation Feature Importance
 ## Need for feature importance measures
-In prediction problems, not all features have equal importance. Certain features are more instrumental in determining the value of the outcome variable. In contexts of use of machine learning models for decision making, an inight into which features are more important for predictions helps to increase the interpretability and trustworthiness of the model.
+In prediction problems, not all features have equal importance. Certain features are more instrumental in determining the value of the outcome variable. In contexts of use of machine learning models for decision making, an insight into which features are more important for predictions helps to increase the explainability, interpretability and trustworthiness of the model.
 
 ## Intuition behind permutation importance
 Shuffling more important features is akin to introducing noise in the variable that the model relies heavily on for prediction on unseen data. A strong predictor when shuffled will cause more decrease in predictive accuracy as compared to a case where a weak predictor is shuffled. The Mean Deacrease in Accuracy (MDA) gives a measure of how important a certain feature is for the prediction task.
