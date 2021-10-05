@@ -21,5 +21,5 @@ Obtaining the permuation importance score involves the following steps:
 
 
 **References**
-1. [Kaggle] (https://www.kaggle.com/dansbecker/permutation-importance)
+1. (https://www.kaggle.com/dansbecker/permutation-importance)
 2. https://eli5.readthedocs.io/en/latest/blackbox/permutation_importance.html
